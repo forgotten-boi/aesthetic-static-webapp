@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Advanced Skin Treatments — SkinGlow Clinic</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <style>
+    body { scroll-behavior: smooth; }
+    .hero-bg {
+      background: url('https://picsum.photos/seed/skinhero/1600/900') no-repeat center center/cover;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Navbar -->
+  <header class="fixed w-full bg-white shadow-md z-50">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-blue-700">SkinGlow Clinic</h1>
+      <nav class="space-x-6 hidden md:flex">
+        <a href="#conditions" class="hover:text-blue-600">Conditions</a>
+        <a href="#treatments" class="hover:text-blue-600">Treatments</a>
+        <a href="#scanning" class="hover:text-blue-600">Scanning</a>
+        <a href="#contact" class="hover:text-blue-600">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero-bg h-screen flex items-center justify-center relative text-center text-white">
+    <div class="bg-black bg-opacity-50 p-8 rounded-xl mx-4" data-aos="fade-up">
+      <h2 class="text-4xl md:text-5xl font-bold mb-4">Radiant Skin, Confident You</h2>
+      <p class="text-lg md:text-xl mb-6">Advanced treatments for melasma, acne, pigmentation & anti-aging</p>
+      <a href="#treatments" class="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-lg text-white font-semibold">Explore Treatments</a>
+    </div>
+  </section>
+
+  <!-- Conditions -->
+  <section id="conditions" class="max-w-7xl mx-auto px-4 py-20">
+    <h3 class="text-3xl font-bold text-center mb-12" data-aos="fade-up">Conditions We Treat</h3>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white shadow-lg rounded-lg overflow-hidden" data-aos="zoom-in">
+        <!-- stable seeded image -->
+        <img loading="lazy" src="https://picsum.photos/seed/melasma/600/400" alt="Melasma & pigmentation" class="w-full h-56 object-cover">
+        <div class="p-6">
+          <h4 class="font-bold text-xl mb-2">Melasma & Pigmentation</h4>
+          <p class="mb-3">Dark skin patches often linked to sun or hormones.</p>
+          <a href="https://www.nhs.uk/conditions/melasma/" target="_blank" class="text-blue-600 hover:underline">Read more →</a>
+        </div>
+      </div>
+
+      <div class="bg-white shadow-lg rounded-lg overflow-hidden" data-aos="zoom-in" data-aos-delay="200">
+        <img loading="lazy" src="https://picsum.photos/seed/acne/600/400" alt="Acne" class="w-full h-56 object-cover">
+        <div class="p-6">
+          <h4 class="font-bold text-xl mb-2">Acne</h4>
+          <p class="mb-3">Treat breakouts and scarring with modern therapies.</p>
+          <a href="https://www.webmd.com/skin-problems-and-treatments/acne/default.htm" target="_blank" class="text-blue-600 hover:underline">Read more →</a>
+        </div>
+      </div>
+
+      <div class="bg-white shadow-lg rounded-lg overflow-hidden" data-aos="zoom-in" data-aos-delay="400">
+        <img loading="lazy" src="https://picsum.photos/seed/wrinkles/600/400" alt="Wrinkles & anti-aging" class="w-full h-56 object-cover">
+        <div class="p-6">
+          <h4 class="font-bold text-xl mb-2">Wrinkles & Anti-Aging</h4>
+          <p class="mb-3">Smooth lines, restore volume & rejuvenate skin.</p>
+          <a href="https://www.mayoclinic.org/diseases-conditions/wrinkles/diagnosis-treatment/drc-20354931" target="_blank" class="text-blue-600 hover:underline">Read more →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Treatments -->
+  <section id="treatments" class="bg-gray-100 py-20">
+    <div class="max-w-7xl mx-auto px-4">
+      <h3 class="text-3xl font-bold text-center mb-12" data-aos="fade-up">Popular Treatments</h3>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white p-8 shadow-lg rounded-lg" data-aos="fade-right">
+          <h4 class="font-semibold text-xl mb-3">Laser Treatments</h4>
+          <p class="mb-4">Effective for pigmentation, rosacea & scars.</p>
+          <a href="https://www.aad.org/public/cosmetic/treatments/lasers" target="_blank" class="text-blue-600 hover:underline">Learn more</a>
+        </div>
+        <div class="bg-white p-8 shadow-lg rounded-lg" data-aos="fade-left">
+          <h4 class="font-semibold text-xl mb-3">Microneedling</h4>
+          <p class="mb-4">Stimulates collagen, improves scars & fine lines.</p>
+          <a href="https://www.healthline.com/health/microneedling" target="_blank" class="text-blue-600 hover:underline">Learn more</a>
+        </div>
+        <div class="bg-white p-8 shadow-lg rounded-lg" data-aos="fade-right">
+          <h4 class="font-semibold text-xl mb-3">Polynucleotides</h4>
+          <p class="mb-4">Regenerative injectables for hydration & healing.</p>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/33103291/" target="_blank" class="text-blue-600 hover:underline">Research</a>
+        </div>
+        <div class="bg-white p-8 shadow-lg rounded-lg" data-aos="fade-left">
+          <h4 class="font-semibold text-xl mb-3">Botox & Injectables</h4>
+          <p class="mb-4">Smooth wrinkles & rejuvenate with precision.</p>
+          <a href="https://www.fda.gov/consumers/consumer-updates/botox-and-dermal-fillers" target="_blank" class="text-blue-600 hover:underline">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skin Scanning -->
+  <section id="scanning" class="max-w-7xl mx-auto px-4 py-20">
+    <div class="grid md:grid-cols-2 gap-12 items-center">
+      <div data-aos="fade-right">
+        <h3 class="text-3xl font-bold mb-6">Face & Skin Scanning</h3>
+        <p class="mb-4">High-tech scans reveal skin condition, hydration, pigmentation & aging patterns.</p>
+        <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8063003/" target="_blank" class="text-blue-600 hover:underline">Read study →</a>
+      </div>
+      <div data-aos="fade-left">
+        <img loading="lazy" src="https://picsum.photos/seed/facescan/800/500" alt="Skin scan" class="rounded-lg shadow-lg">
+      </div>
+    </div>
+  </section>
+
+  <!-- Media / Example Video -->
+  <section class="max-w-7xl mx-auto px-4 py-12">
+    <h3 class="text-2xl font-bold text-center mb-6" data-aos="fade-up">Demo Videos & Gallery</h3>
+    <div class="grid md:grid-cols-2 gap-6">
+      <div data-aos="zoom-in">
+        <!-- YouTube embed as reliable video source -->
+        <div class="aspect-w-16 aspect-h-9">
+          <iframe src="https://www.youtube.com/embed/ysz5S6PUM-U" title="Demo video" allowfullscreen class="w-full h-64 rounded-lg shadow-lg"></iframe>
+        </div>
+      </div>
+      <div class="bg-white p-4 rounded-lg shadow-lg" data-aos="zoom-in" data-aos-delay="150">
+        <img loading="lazy" src="https://picsum.photos/seed/gallery1/800/500" alt="Gallery image" class="rounded-md mb-3 w-full object-cover h-48">
+        <p class="text-sm">Replace these gallery images with your own clinical photos or videos.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="bg-blue-900 text-white py-16 text-center">
+    <h3 class="text-3xl font-bold mb-6" data-aos="fade-up">Book Your Consultation</h3>
+    <p class="mb-6" data-aos="fade-up" data-aos-delay="200">Get personalized advice for your skin needs.</p>
+    <a href="mailto:info@skinglowclinic.com" class="bg-white text-blue-900 px-6 py-3 rounded-lg font-semibold hover:bg-gray-200" data-aos="zoom-in">Email Us</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black text-gray-400 text-center py-6">
+    <p>&copy; 2025 SkinGlow Clinic | For educational purposes only</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 900, once: true });
+
+    // Fallback: if any image fails to load, replace with a neutral placeholder
+    document.addEventListener('DOMContentLoaded', () => {
+      document.querySelectorAll('img').forEach(img => {
+        img.onerror = () => {
+          img.src = 'https://picsum.photos/800/600?grayscale';
+          img.alt = 'Placeholder image';
+          img.classList.add('opacity-90');
+        };
+      });
+    });
+  </script>
+</body>
+</html>
