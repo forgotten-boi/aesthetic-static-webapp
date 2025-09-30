@@ -16,12 +16,15 @@ jobs:
     name: Build and Deploy Job
     steps:
       - uses: actions/checkout@v3
+         with:
+          submodules: true
+          lfs: false
 
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
         with:
-          azure_static_web_apps_api_token: 'df54f982a3060b8cda540ddb65a4eac8cc139696c23d7152e314e1056380190601-344d22d5-3c57-4778-b594-aa7c0d94c08400309030bca8cb03'
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_PURPLE_SEA_0BCA8CB03 }}
           action: "upload"
           app_location: "/"        # root of your static site
           api_location: ""         # no API
@@ -36,5 +39,6 @@ jobs:
         id: closepullrequest
         uses: Azure/static-web-apps-deploy@v1
         with:
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_PURPLE_SEA_0BCA8CB03 }}
           action: "close"
 
